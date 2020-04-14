@@ -1,0 +1,16 @@
+module (
+  reg [7:0] cs,
+  reg [7:0] speed,
+  reg [7:0] data_in,
+  reg [7:0] crtl,
+  
+  output reg [7:0] data_out,
+  
+
+  input wire mosi,
+  output miso,
+  output sck
+  );
+  
+  
+endmodule
